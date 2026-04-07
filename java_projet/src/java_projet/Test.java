@@ -3,7 +3,8 @@ package java_projet;
 public class Test {
 
 	public static void main(String[] args) {
-		System.out.print("aller");
+		System.out.println("aller");
+		System.out.println("alal");
 
 	}
 
