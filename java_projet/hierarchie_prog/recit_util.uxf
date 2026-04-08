@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="15.1.0">
-  <help_text/>
+  <help_text>Visualisation du polynome</help_text>
   <zoom_level>10</zoom_level>
   <element>
     <id>UMLActor</id>
@@ -39,18 +39,18 @@
     <id>Relation</id>
     <coordinates>
       <x>90</x>
-      <y>120</y>
+      <y>130</y>
       <w>130</w>
-      <h>40</h>
+      <h>90</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;20.0;110.0;15.0</additional_attributes>
+    <additional_attributes>10.0;10.0;110.0;65.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
       <x>200</x>
-      <y>110</y>
+      <y>170</y>
       <w>280</w>
       <h>50</h>
     </coordinates>
@@ -61,7 +61,7 @@
     <id>UMLUseCase</id>
     <coordinates>
       <x>210</x>
-      <y>170</y>
+      <y>230</y>
       <w>280</w>
       <h>50</h>
     </coordinates>
@@ -74,31 +74,53 @@
       <x>90</x>
       <y>140</y>
       <w>140</w>
-      <h>70</h>
+      <h>130</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;120.0;50.0</additional_attributes>
+    <additional_attributes>10.0;10.0;120.0;110.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>80</x>
       <y>150</y>
-      <w>150</w>
-      <h>120</h>
+      <w>130</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;10.0;130.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;110.0;160.0</additional_attributes>
   </element>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>210</x>
-      <y>230</y>
+      <x>190</x>
+      <y>290</y>
       <w>390</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>Lire le fichiers et recuperer le polynome sauvegarder</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>200</x>
+      <y>110</y>
+      <w>290</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Visualisation du polynome</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>90</x>
+      <y>110</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
   </element>
 </diagram>
